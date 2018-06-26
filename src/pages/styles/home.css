@@ -1,0 +1,71 @@
+.topbar {
+  width: 60%;
+  line-height: 20px;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin:auto;
+  padding: 0;
+  background: #ffcc00;
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 7px #222;
+  text-shadow: 0 0 3px #fff;
+  font-size: 26px;
+  overflow: hidden;
+}
+
+.card {
+  width: 30%;
+  height: 30%;
+  line-height: 50px;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding: 1%;
+  background: rgb(255, 45, 85);
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 7px #222;
+  text-shadow: 0 0 3px #fff;
+  font-size: 56px;
+  overflow: hidden;
+}
+p.cardtext {
+  font-size: 26px;
+}
+.list {
+  top: 0;
+  width: 40%;
+  float: right;
+  color: white;
+  margin-top: -35%;
+  overflow: hidden;
+}
+.cardsparent {
+  display:inline;
+}
+
+@media screen and (max-width: 800px) {
+  .topbar {
+    width: 100%;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .card {
+    width: 80%;
+    height: 30%;
+    font-size: 26px;
+    overflow:hidden;
+  }
+  p.cardtext {
+    font-size: 20px;
+  }
+  .list {
+    margin-top: 3%;
+    width: 100%;
+    color: white;
+  }
+}

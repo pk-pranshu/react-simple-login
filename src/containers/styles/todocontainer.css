@@ -1,0 +1,47 @@
+.todolist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.todoitem {
+  padding: .5em .25em;
+  border-bottom: solid 1px #eee;
+  font-size: 25px;
+}
+
+.todoitem:hover {
+  cursor: pointer;
+}
+
+.todoentry {
+  border: solid 1px #ccc;
+  padding: .25em .5em;
+  border-radius: .2em;
+  background: #f3f3f3;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+}
+
+.todobutton {
+  border: 0;
+  border-radius: .2em;
+  background: #71B7FF;
+  color: #fff;
+  padding: .25em .5em;
+  margin: .5em 0;
+  margin-right: .25em;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.todobutton:hover {
+  background: #B2D8FF;
+}
+
+li > span{
+  color: white;
+  font-size:25px;
+}
