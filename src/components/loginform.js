@@ -17,6 +17,7 @@ class Loginform extends Component {
 
     // username: 'macintosh@xyz.com'
     // password: 'mojave'
+    //when user presses enter the credentials are verified
     handleSubmit(e) {
       e.preventDefault()
       if (this.state.username === 'macintosh@xyz.com' && this.state.password === 'mojave') {
@@ -26,13 +27,13 @@ class Loginform extends Component {
         document.getElementById('inputpass').className = 'invalidInput';
       }
     }
-
+    //updates the state on keypress in input field
     handleUserChange(evt) {
       this.setState({
         username: evt.target.value,
       });
     };
-
+    //updates the state on keypress in input field
     handlePassChange(evt) {
       this.setState({
         password: evt.target.value,
