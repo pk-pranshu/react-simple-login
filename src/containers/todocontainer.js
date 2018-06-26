@@ -8,6 +8,7 @@ class TodoContainer extends React.Component {
     super(props);
     const { todos, toggleTodo, addTodo } = props;
   }
+  //when user presses enter in the input box dispatch addTodo action
   onSubmit(event){
     const input = event.target;
     const text = input.value;
@@ -19,6 +20,7 @@ class TodoContainer extends React.Component {
       this.props.addTodo(text);
     }
   }
+  //when user clicks on a item to mark complete dispatch toogle action
   toggleClick(id) {
       return function(event){
           return this.props.toggleTodo(id);
