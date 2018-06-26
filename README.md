@@ -5,8 +5,8 @@ Simple React Redux app
 ## Description
 
 A simple app that uses React, Redux and React-router to create an login page. Please use the following credentials: -  
-`username: 'macintosh@xyz.com'`  
-`password: 'mojave'`on the login page. On a successful login it should take you to the home page.
+`username: macintosh@xyz.com`  
+`password: mojave`on the login page. On a successful login it should take you to the home page.
 
 ## Getting Started
 
@@ -23,8 +23,8 @@ A simple app that uses React, Redux and React-router to create an login page. Pl
 * open http://localhost:8080/
 
 Please use the following credentials: -  
-`username: 'macintosh@xyz.com'`  
-`password: 'mojave'`
+`username: macintosh@xyz.com`  
+`password: mojave`
 
 ## Design Decisions
 
