@@ -13,7 +13,7 @@ export default class Home extends Component {
         </div>
       <div className='cardsparent'>
         <div className = 'leftportion'>
-          <div>
+          <div className='widget'>
             <Clockwidget />
           </div>
           <div className='card'>
