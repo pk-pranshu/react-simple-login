@@ -1,23 +1,23 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    background:
-      linear-gradient(
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.7)
-      ),
-      url('../../static/applestore.png') no-repeat center center fixed;
-      background-size: cover;
-      position: relative;
-      overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+  url('../../static/applestore.png') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
 p {
-    font-size: 14px;
+  font-size: 14px;
 }
 span {
     color: #a7a6ab;
