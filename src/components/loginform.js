@@ -15,8 +15,8 @@ class Loginform extends Component {
       this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    // username: 'macintosh@xyz.com',
-    // password: 'mojave',
+    // username: 'macintosh@xyz.com'
+    // password: 'mojave'
     handleSubmit(e) {
       e.preventDefault()
       if (this.state.username === 'macintosh@xyz.com' && this.state.password === 'mojave') {
