@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import moment from 'moment';
 import Clockwidget from '../components/clockwidget'
 import './styles/home.css';
 import Todocontainer from '../containers/todocontainer';
