@@ -28,7 +28,11 @@ Please use the following credentials: -
 
 ## Design Decisions
 
-*
+* The login page is very simple. It contains a form component that matches the username and password.
+* The verification method does not let submit an empty form nor does it work for other credentials.
+* Warns the user if the above conditions are not met.
+* can add a Remember me and forgot password option to the page. Currently it is not there.
+* 
 
 
 ## Author
