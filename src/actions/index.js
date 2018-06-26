@@ -1,4 +1,4 @@
-const uid = () => Math.random().toString(34).slice(2);
+const uid = () => Math.random().toString(34).slice(2); //generate a random id
 
 export function addTodo(text) {
   return {
