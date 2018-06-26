@@ -9,6 +9,7 @@ export default class Clockwidget extends React.Component {
       super(props);
       this.update = this.update.bind(this);
     }
+    //update function called every second to update the time
     update() {
         var elem = document.getElementById('clock');
         elem.innerHTML = 'Time: ' + (moment().format('H:mm:ss'));
