@@ -30,9 +30,15 @@ Please use the following credentials: -
 
 * The login page is very simple. It contains a form component that matches the username and password.
 * The verification method does not let submit an empty form nor does it work for other credentials.
-* Warns the user if the above conditions are not met.
-* can add a Remember me and forgot password option to the page. Currently it is not there.
-* 
+* Warns the user if the above conditions are not met by changing the color of the input box.
+* Can add a Remember me and forgot password option to the page. Currently it is seemed out of scope for this project.
+* React-router is used to handle page transition.
+* Home page is pretty clean and responsive.
+* The cards stack when the browser width is changed.
+* There is a time clock component built with momentJS.
+* I created a container (dumb component) for TodoList to handle the redux and data store to showcase how the redux interaction is handled.
+* Setup simple redux flow with reducers, store and action.
+*  Lastly added a favicon. Works on Chrome but I hear Safari is coming with an update in Mojave for the same. Yayyy !! Excited 😀 !!!
 
 
 ## Author
