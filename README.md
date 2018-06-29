@@ -12,7 +12,7 @@ A simple app that uses React, Redux and React-router to create an login page. Pl
 
 ### Dependencies
 
-* NodeJS
+* [NodeJS](https://nodejs.org/en/download/)
 
 ### Instructions to run the App
 
@@ -36,7 +36,7 @@ Please use the following credentials: -
 * Home page is pretty clean and responsive.
 * The cards stack when the browser width is changed.
 * There is a time clock component built with momentJS.
-* I created a container (dumb component) for TodoList to handle the redux and data store to showcase how the redux interaction is handled.
+* I created a container (smart component) for TodoList to handle the redux and data store to showcase how the redux interaction is handled.
 * Setup simple redux flow with reducers, store and action.
 *  Lastly added a favicon. Works on Chrome but I hear Safari is coming with an update in Mojave for the same. Yayyy !! Excited 😀 !!!
 
