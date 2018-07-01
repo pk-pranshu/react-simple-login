@@ -10,7 +10,6 @@ body {
   url('../../static/applestore.png') no-repeat center center fixed;
   background-size: cover;
   position: relative;
-  overflow: hidden;
 }
 a {
   text-decoration: none;
